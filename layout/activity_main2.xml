@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/schoolF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Update User"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="276dp"
+        android:layout_height="217dp"
+        app:srcCompat="@drawable/user"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="358dp"
+        android:layout_height="46dp"
+        android:text="Nome"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="358dp"
+        android:layout_height="46dp"
+        android:text="phone number"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="358dp"
+        android:layout_height="46dp"
+        android:text="mary@mail.cv"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <EditText
+        android:id="@+id/pasw"
+        android:layout_width="358dp"
+        android:layout_height="46dp"
+        android:text="Password"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <Button
+        android:id="@+id/upadate"
+        android:layout_width="142dp"
+        android:layout_height="52dp"
+        android:background="#4CAF50"
+        android:backgroundTint="#2E2C2C"
+        android:text="Update"
+        app:icon="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:background="#FFFFFF"
+        android:text="Cancel"
+        app:icon="@android:drawable/ic_delete"
+        app:iconTint="#CA2222"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
